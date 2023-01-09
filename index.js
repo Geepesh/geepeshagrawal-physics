@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 3002 || process.env.PORT;
-
+const path = require('path')
 app.use(express.static('files'))
 app.set('view engine','ejs')
 
@@ -40,7 +40,7 @@ app.get('/sample_paper/basic/sp1', (req, res) => {
 })
 
 app.get('/.well-known/pki-validation/D1262421AFAA7F7F399F595020D02842.txt', (req, res) => {
-  res.sendFile('D1262421AFAA7F7F399F595020D02842.txt')
+  res.sendFile(path.join(__dirname + '/D1262421AFAA7F7F399F595020D02842.txt'))
 })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
