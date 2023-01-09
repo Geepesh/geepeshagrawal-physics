@@ -35,9 +35,12 @@ app.get('/sample_paper/standard', (req, res) => {
 app.get('/sample_paper/basic/sp1', (req, res) => {
   res.render('sp1_basic')
 })
+app.get('/sample_paper/basic/sp1', (req, res) => {
+  res.render('sp1_basic')
+})
 
-app.get('/*', (req, res) => {
-  res.send('<a href="/">Go to geepeshagrawal.com</a>')
+app.get('/.well-known/pki-validation/D1262421AFAA7F7F399F595020D02842.txt', (req, res) => {
+  res.sendFile('D1262421AFAA7F7F399F595020D02842.txt')
 })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
