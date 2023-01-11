@@ -67,7 +67,7 @@ a{
    
 }
 
-@media screen and  (max-width :400px){
+@media only screen and  (max-width :400px){
     #tagLine{
         font-size: 22px;
         font-weight: bolder;
@@ -76,13 +76,13 @@ a{
 
 
 
-@media screen and  (max-width :530px){
+@media only screen and  (max-width :530px){
     .featureTxtRight{
         font-size: 20px;  
         font-weight: bolder; 
     }
 }
-@media screen and  (min-width :530px){
+@media only screen and  (min-width :530px){
     .featureTxtRight{
         font-size: 23px;  
         font-weight: bolder; 
@@ -91,7 +91,7 @@ a{
         width : 80%
     }
 }
-@media screen and  (min-width :530px){
+@media only screen and  (min-width :530px){
     .leftContainer{
         float: right;
         clear: both;
@@ -99,7 +99,7 @@ a{
 }
 
 
-@media screen and  (min-width :600px){
+@media only screen and  (min-width :600px){
     .featureTxtRight{
         font-size: 23px;  
         font-weight: bolder; 
