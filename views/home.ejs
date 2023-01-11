@@ -78,7 +78,7 @@
     </style>
 </head>
 
-<body>
+<body onload="reS()" onresize="reS()">
     <div id="bannner">
         <center>
             <img id="img" src="/Geepesh (1).gif" alt="banner.gif">
@@ -114,7 +114,7 @@
         </p>
     </div>
 
-    <div class="grid-container">
+    <div class="gc">
     <div class="grid-item guide">
         <img style="border-radius: 50%;" src="/der.png" alt="" srcset="">
         <br><a href="/derivation">Derivation ></a>
@@ -143,6 +143,19 @@
                 <a target="_blank" href="https://www.youtube.com/@geepesh" class="fa fa-youtube"></a>
     </center>
     </div>
+    <script>
+        let reS = ()=>{
+        if(window.innerWidth < 720){
+            document.getElementById("gc").style.gridTemplateColumns = "auto";
+        }else if(window.innerWidth > 720){
+            document.getElementById("gc").style.gridTemplateColumns = "auto auto";
+        }
+        else if(window.innerWidth < 600){
+            
+        }
+    }
+    </script>
+
 
 </body>
 
