@@ -166,21 +166,21 @@ a{
 
 @media screen and (min-width : 400px) and (max-width : 500px){
     #tagLine{
-        font-size: 25px;
+        font-size: 3.8vm;
         font-weight: bolder;
     }
 }
 
 @media screen and (min-width : 500px) and (max-width : 600px){
     #tagLine{
-        font-size: 28px;
+        font-size: 3.8vm;
         font-weight: bolder;
     }
 }
 
 @media screen and (min-width : 600px) and (max-width : 700px){
     #tagLine{
-        font-size: 31px;
+        font-size: 3.8vm;
         font-weight: bolder;
     }
     
@@ -195,7 +195,7 @@ a{
 
 @media screen and (min-width : 750px){
     #tagLine{
-        font-size: 37px;
+        font-size: 3.8vm;
         font-weight: bolder;
     }
     
