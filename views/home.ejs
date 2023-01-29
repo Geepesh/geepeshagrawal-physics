@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,13 +78,13 @@
     </style>
 </head>
 
-<body onload="reS()" onresize="reS()">
+<body>
     <div id="bannner">
         <center>
             <img id="img" src="/Geepesh (1).gif" alt="banner.gif">
         </center>
     </div>
-    <p id="wlc">Welcome to geepeshagrawalphy.com </p>
+    <p id="wlc">Welcome to geepeshagrawal.com </p>
     <p id="tagLine">
         Here you can read and download e-notes and hand written notes for
         <span id="price">₹49</span> <span id="free">FREE</span>
@@ -114,7 +114,7 @@
         </p>
     </div>
 
-    <div class="gc">
+    <div class="grid-container">
     <div class="grid-item guide">
         <img style="border-radius: 50%;" src="/der.png" alt="" srcset="">
         <br><a href="/derivation">Derivation ></a>
@@ -135,27 +135,14 @@
     </div>
     <div id="footer">
         <center>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100075497589843">
+            <a href="https://www.facebook.com/profile.php?id=100075497589843">
                 <i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://twitter.com/NarmadaChanchal" class="fa fa-twitter"></a>
-                <a  href="mailto:geepeshagrawal@gmail.com" class="fa fa-google"></a>
-                <a target="_blank" href="https://instagram.com/geepeshagrawal" class="fa fa-instagram"></a>
-                <a target="_blank" href="https://www.youtube.com/@geepesh" class="fa fa-youtube"></a>
+                <a href="https://twitter.com/NarmadaChanchal" class="fa fa-twitter"></a>
+                <a href="mailto:geepeshagrawal@gmail.com" class="fa fa-google"></a>
+                <a href="https://instagram.com/geepeshagrawal" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/@geepesh" class="fa fa-youtube"></a>
     </center>
     </div>
-    <script>
-        let reS = ()=>{
-        if(window.innerWidth < 720){
-            document.getElementById("gc").style.gridTemplateColumns = "auto";
-        }else if(window.innerWidth > 720){
-            document.getElementById("gc").style.gridTemplateColumns = "auto auto";
-        }
-        else if(window.innerWidth < 600){
-            
-        }
-    }
-    </script>
-
 
 </body>
 
