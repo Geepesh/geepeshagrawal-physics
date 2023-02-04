@@ -38,6 +38,9 @@ app.get('/sample_paper/basic/sp1', (req, res) => {
 app.get('/sample_paper/basic/sp1', (req, res) => {
   res.render('sp1_basic')
 })
+app.get('/sample_paper/standard/sp1', (req, res) => {
+  res.render('sp1_standard')
+})
 
 app.get('/.well-known/pki-validation/D1262421AFAA7F7F399F595020D02842.txt', (req, res) => {
   res.sendFile(path.join(__dirname + '/D1262421AFAA7F7F399F595020D02842.txt'))
