@@ -42,8 +42,8 @@ app.get('/sample_paper/standard/sp1', (req, res) => {
   res.render('sp1_standard')
 })
 
-app.get('/.well-known/pki-validation/D1262421AFAA7F7F399F595020D02842.txt', (req, res) => {
-  res.sendFile(path.join(__dirname + '/D1262421AFAA7F7F399F595020D02842.txt'))
+app.get('/.well-known/acme-challenge/GoPsyg9S5F5B8dmZbec-GHaG6UfnFhBFwCyTfi9EVAI', (req, res) => {
+  res.sendFile(path.join(__dirname + 'GoPsyg9S5F5B8dmZbec-GHaG6UfnFhBFwCyTfi9EVAI'))
 })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
