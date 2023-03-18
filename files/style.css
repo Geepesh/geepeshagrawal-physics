@@ -1,0 +1,262 @@
+body{
+    background-color: black;
+    width : 100%;
+    height : 100%;
+    color : white;
+}
+
+a{
+    color: blueviolet;
+}
+
+.rightContainer{
+    margin : 15px;
+    border-radius: 10px;
+    padding : 5px;
+    background-color: white;
+    clear: both;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+
+    margin : 20px;
+  }
+  .grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.featureImg{
+    border-radius: 50%;
+}
+
+.featureTxtRight{
+    float: right;
+    margin-right: 15px;
+    color : black;
+}
+
+@media screen and  (min-width :630px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin : 10px;
+      }
+}
+
+#img{
+    width : 100%;
+    height: auto;
+}
+
+#wlc{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin: 15px;
+    padding: 12px;
+}
+
+#tagLine{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    padding: 12px;
+   
+}
+
+@media only screen and  (max-width :400px){
+    #tagLine{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+}
+
+
+
+@media only screen and  (max-width :530px){
+    .featureTxtRight{
+        font-size: 20px;  
+        font-weight: bolder; 
+    }
+}
+@media only screen and  (min-width :530px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 80%
+    }
+}
+@media only screen and  (min-width :530px){
+    .leftContainer{
+        float: right;
+        clear: both;
+    }
+}
+
+
+@media only screen and  (min-width :600px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 70%
+    }
+}
+
+@media screen and  (min-width :700px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 65%
+    }
+}
+
+@media screen and  (min-width :800px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 60%
+    }
+}
+
+@media screen and  (min-width :1000px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 50%
+    }
+}
+
+@media screen and  (min-width :1150px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 45%
+    }
+}
+
+@media screen and  (min-width :1250px){
+    .featureTxtRight{
+        font-size: 23px;  
+        font-weight: bolder; 
+    }
+    .rightContainer{
+        width : 38%
+    }
+}
+
+#footer{
+    width : 100%;
+    height : 200px;
+}
+
+@media screen and (min-width : 400px) and (max-width : 500px){
+    #tagLine{
+        font-size: 3.8vh;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width : 500px) and (max-width : 600px){
+    #tagLine{
+        font-size: 3.8vh;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width : 600px) and (max-width : 700px){
+    #tagLine{
+        font-size: 3.8vh;
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width : 700px) and (max-width : 750px){
+    #tagLine{
+        font-size: 3.8vh;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width : 750px){
+    #tagLine{
+        font-size: 3.8vh;
+        font-weight: bolder;
+    }
+    
+}
+
+@media screen and (min-width : 1000){
+    .grid-container{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+
+@media screen and (min-width : 1040px){
+    #img{
+        width : 97%;
+        height: auto;
+    }
+}
+@media screen and (min-width : 1090px){
+    #img{
+        width : 94%;
+        height: auto;
+    }
+}
+@media screen and (min-width : 1130px){
+    #img{
+        width : 91%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width : 1165px){
+    #img{
+        width : 88%;
+        height: auto;
+    }
+}
+
+#free{
+    color: rgb(233, 223, 28);
+    text-decoration: underline;
+}
+
+#price{
+    color: red;
+    text-decoration: line-through;
+}
+
+.guide{
+    border-radius: 15px;
+}
+
+/*
+#derivation{
+    background : white;
+    margin: 15px;
+    padding: 10px;
+    width : 45%;
+    border-radius : 10px
+}
+*/
+
+
+
