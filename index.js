@@ -6,8 +6,6 @@ const mongoose = require('mongoose')
 app.use(express.static('files'))
 app.set('view engine','ejs')
 
-require('dotenv').config()
-
 
 mongoose.connect(process.env.VAR, {
     useNewUrlParser: true
