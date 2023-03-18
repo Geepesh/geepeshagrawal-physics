@@ -7,7 +7,7 @@ app.use(express.static('files'))
 app.set('view engine','ejs')
 
 
-mongoose.connect(process.env.VAR, {
+mongoose.connect("mongodb+srv://geepesh_agrawal:geepeshagrawal@cluster0.n8viw.mongodb.net/visitor-count?retryWrites=true&w=majority", {
     useNewUrlParser: true
 });
 
